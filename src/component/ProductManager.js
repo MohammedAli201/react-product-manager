@@ -14,8 +14,7 @@ const ProductManager = () => {
 
     const handleRemoveProduct = (id) => {
         dispatch(removeProduct({ id }));
-        alert('Product removed');
-        console.log('Product removed', id);
+        
     };
 
     return (
